@@ -1,87 +1,95 @@
 
+/* SUCCESS table*/
 
-table {
+table.success_table_css {
     border-collapse: separate;
     border-spacing: 0;
     margin-left: 30px;
 }
 
-table {
+table.success_table_css {
     border: 1px solid #00b33c;
     border-radius: 5px;
     -moz-border-radius: 5px;
-    //padding: 5px;
     background: #00b33c;
 }
 
-tr:nth-child(even) {background: #FFF}
-tr:nth-child(odd) {background: #e6ffe6}
+.success_table_css tr:nth-child(even) {background: #FFF}
+.success_table_css tr:nth-child(odd) {background: #e6ffe6}
 
-th {
-    //border: 1px solid #FFF;
+.success_table_css th {
     background-color: #00b33c;
     color: #FFF;
     padding-left: 40px;
     padding-right: 40px;
     box-sizing: border-box;
-
-    /*
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    padding: 5px;
-    background: #839f38;
-    */
 }
 
-td {
+.success_table_css td {
     padding-left: 40px;
     padding-right: 40px;
-    //border: 1px solid black;
-    //background: #FFF;
-    /*
+}
+
+
+/* PENDING table*/
+
+table.pending_table_css {
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-left: 30px;
+}
+
+table.pending_table_css {
+    border: 1px solid #ffa31a;
     border-radius: 5px;
     -moz-border-radius: 5px;
-    padding: 5px;
-    background: #839f38;
-    */
+    background: #ffa31a;
+}
+
+.pending_table_css tr:nth-child(even) {background: #FFF}
+.pending_table_css tr:nth-child(odd) {background: #ffebcc}
+
+.pending_table_css th {
+    background-color: #ffa31a;
+    color: #FFF;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.pending_table_css td {
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 
-table, th, td {
-    //border: 1px solid black;
-    //border-collapse: collapse;
-}
-th, td {
-    //padding: 5px;
-    //text-align: left;
-}
-table#success_table {
+/* REMAINING table*/
 
-  border-collapse: separate;
-  border-spacing: 0;
-
-  border: 1px solid #28a745;;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  padding: 5px;
-
-  margin-left: 30px;
-
+table.remaining_table_css {
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-left: 30px;
 }
 
-th#success_table {
-
-  border: 1px solid #28a745;
-
-  background-color: #167F92;
-  background: #167F92;
+table.remaining_table_css {
+    border: 1px solid #ff1a1a;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    background: #ff1a1a;
 }
 
-td#success_table {
-  border-collapse: separate;
-  border-spacing: 0;
+.remaining_table_css tr:nth-child(even) {background: #FFF}
+.remaining_table_css tr:nth-child(odd) {background: #ffe6e6}
 
-  border: 1px solid #28a745;
+.remaining_table_css th {
+    background-color: #ff1a1a;
+    color: #FFF;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
 
-  background-color: #167F92;
+.remaining_table_css td {
+    padding-left: 40px;
+    padding-right: 40px;
 }
